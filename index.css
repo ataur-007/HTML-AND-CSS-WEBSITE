@@ -1,0 +1,125 @@
+nav {
+    display: flex;
+    padding: 20px 100px;
+}
+.nav-ber{
+    display: flex;
+}
+.logo {
+    color: #525CF3;
+    font-family: system-ui;
+    cursor: pointer;
+}
+ul {
+    padding: 13px 0 0 211px;
+}
+li{
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    padding: 45px 0 0 30px;
+    margin-top: 37px;
+    font-size: 20px;
+    color: black;
+    cursor: pointer;
+    font-family: system-ui;
+}
+.tbn-head {
+    padding: 10px 15px;
+    margin: 24px 0 0 219px;
+    background-color: chartreuse;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.head{
+    display: flex;
+    padding: 40px 150px;
+}
+.head-img {
+    width: 500px;
+    margin: -71px 0 0 98px;
+}
+
+.head-text {
+    width: 472px;
+}
+
+.head-text h1{
+    font-size: 40px;
+    font-family: system-ui;
+    margin: 0;
+}
+.head-text span{
+    color: #525CF3;
+}
+.head-text p {
+    font-size: 17px;
+    width: 422px;
+}
+.btn-head1{
+    padding: 10px 15px;
+    background-color: chartreuse;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.btn-head{
+    padding: 10px 15px;
+    background-color:#525CF3;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.collection {
+    background: linear-gradient(to right, #FD649D, #FFAFBD);    padding: 40px 0 50px 249px;
+    background-color: #525CF3;
+    display: flex;
+    text-align: center;
+}
+.collection-item {
+    background-color: wheat;
+    margin-left: 20px;
+    height: 56px;
+    width: 223px;
+    align-content: cenyet;
+    padding: 40px 0 0 0;
+    font-size: 19px;
+    border: 3px solid burlywood;
+    border-radius: 10px;
+    box-shadow: 3px 2px 15px 0px black;
+    cursor: pointer;
+}
+
+/* this css for blog  */
+
+.blog {
+    display: flex;
+    padding: 30px 100px;
+}
+.blogs {
+    margin: 20px;
+    background-image: linear-gradient(45deg, #b36565, #0000001f);
+    padding: 19px;
+    border-radius: 5px;
+}
+.blogs:hover{
+    /* background-image: linear-gradient(45deg,#0000001f, #b36565, ); */
+    background-color: #FFAFBD;
+    color: white;
+    transition-duration: 1s;
+}
+
+.blogs h1 {
+    font-family: math;
+}
+.blog-btn {
+    padding: 5px 14px;
+    background-color: beige;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
