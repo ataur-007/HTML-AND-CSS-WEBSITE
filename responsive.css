@@ -1,0 +1,135 @@
+/* Phone Mode CSS */
+@media only screen and (max-width: 600px) {
+
+    .btn {
+        width: 100%;
+        text-align: center;
+        margin: 10px 0;
+    }
+
+    .btn-head {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .head {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .head-text {
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .head-img {
+        max-width: 100%;
+        margin-top: 20px;
+        margin-left: -14px;
+    }
+
+    .collection {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .collection-item {
+        margin: 10px 0;
+        width: 201%;
+        text-align: center;
+        margin-left: -249px;
+    }
+
+    .blog {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .blogs {
+        width: 90%;
+        margin: 10px 0;
+        text-align: center;
+    }
+}
+
+
+@media only screen and (max-width: 600px) {
+    .nav-ber {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 20px;
+    }
+
+    .logo {
+        /* order: 1; */
+        margin: 20px 0 0 -100px;
+        position: absolute;
+    }
+
+    .nav-toggle {
+        display: block;
+        cursor: pointer;
+        font-size: 24px;
+        color: #000000;
+        padding: 10px;
+        order: 2;
+        margin-left: 204px;
+        margin-top: 10px;
+    }
+
+    .nav-item {
+        position: absolute;
+        top: 0;
+        left: -100%;
+        width: 50%;
+        height: 100vh;
+        background-color: #333;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 60px;
+        transition: left 0.3s ease;
+        z-index: 1000;
+    }
+
+    .nav-item ul {
+        flex-direction: column;
+        width: 100%;
+        padding: 0;
+    }
+
+    .nav-item ul li {
+        margin: 10px 0;
+        width: 100%;
+        text-align: center;
+    }
+
+    .btn {
+        /* width: 100%;
+        text-align: center;
+        margin: 10px 0; */
+        display: none;
+    }
+
+    .btn-head {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .nav-item.active {
+        display: flex;
+    }
+
+    .btn-head1{
+        display: none;
+    }
+}
+
+
+/* This is for images. */
+
+@media only screen and (max-width: 600px) {
+    
+}

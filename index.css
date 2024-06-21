@@ -123,3 +123,13 @@ a {
     border-radius: 3px;
     cursor: pointer;
 }
+
+#style:hover{
+    padding-top: 5px;
+    /* margin-bottom: -5px; */
+    cursor: pointer;
+}
+
+.nav-toggle{
+    display: none;
+}

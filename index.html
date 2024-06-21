@@ -6,15 +6,17 @@
     <title>Document</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link rel="stylesheet" href="index.css">
-
+    <link rel="stylesheet" href="responsive.css">
 </head>
 <body>
     <!-- this is for our heading section logo navber and button section -->
   <nav>
     <div class="nav-ber">
+        <div class="nav-toggle"><i class="fa fa-bars"></i></div>
         <div class="logo">
             <h1>ATAUR WD</h1>
         </div>
+       
         <div class="nav-item">
             <ul>
                 <li><a href="index.html">Home</a>
@@ -52,22 +54,22 @@
   </section>
   <!-- this section for blog post -->
   <section class="blog">
-    <div class="blogs">
+    <div id="style" class="blogs">
         <h1>This is blog heading</h1>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum provident minima dignissimos aut consequatur non suscipit maxime aliquam optio, doloremque dolores sapiente? Ratione sit sunt iusto et eos </p>
         <button type="button" class="blog-btn">See More</button>
     </div>
-    <div class="blogs">
+    <div id="style" class="blogs">
         <h1>This is blog heading</h1>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum provident minima dignissimos aut consequatur non suscipit maxime aliquam optio, doloremque dolores sapiente? Ratione sit sunt iusto et eos </p>
         <button type="button" class="blog-btn">See More</button>
     </div>
-    <div class="blogs">
+    <div id="style" class="blogs">
         <h1>This is blog heading</h1>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum provident minima dignissimos aut consequatur non suscipit maxime aliquam optio, doloremque dolores sapiente? Ratione sit sunt iusto et eos </p>
         <button type="button" class="blog-btn">See More</button>
     </div>
-    <div class="blogs">
+    <div id="style" class="blogs">
         <h1>This is blog heading</h1>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum provident minima dignissimos aut consequatur non suscipit maxime aliquam optio, doloremque dolores sapiente? Ratione sit sunt iusto et eos </p>
         <button type="button" class="blog-btn">See More</button>
@@ -76,9 +78,12 @@
   </section>
   <script>
             // Function to disable right-click
-            document.addEventListener('contextmenu', function(e) {
-            e.preventDefault();
-        }, false);
+        //     document.addEventListener('contextmenu', function(e) {
+        //     e.preventDefault();
+        // }, false);
+        document.querySelector('.nav-toggle').addEventListener('click', function() {
+        document.querySelector('.nav-item').classList.toggle('active');
+    });
   </script>
 </body>
 </html>
