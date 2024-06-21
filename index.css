@@ -85,13 +85,20 @@ a {
     margin-left: 20px;
     height: 56px;
     width: 223px;
-    align-content: cenyet;
     padding: 40px 0 0 0;
     font-size: 19px;
     border: 3px solid burlywood;
     border-radius: 10px;
     box-shadow: 3px 2px 15px 0px black;
     cursor: pointer;
+    transition: transform 0.3s ease;
+
+}
+.collection-item:hover{
+    transform: scale(1.1);
+    /* transition-duration: 1s; */
+     /* margin: 0 5px; */
+
 }
 
 /* this css for blog  */
@@ -100,6 +107,10 @@ a {
     display: flex;
     padding: 30px 100px;
 }
+
+
+
+/* This is for blog section */
 .blogs {
     margin: 20px;
     background-image: linear-gradient(45deg, #b36565, #0000001f);
@@ -107,11 +118,16 @@ a {
     border-radius: 5px;
 }
 .blogs:hover{
-    /* background-image: linear-gradient(45deg,#0000001f, #b36565, ); */
     background-color: #FFAFBD;
     color: white;
     transition-duration: 1s;
+    /* margin-top: -5px; */
 }
+
+
+
+
+
 
 .blogs h1 {
     font-family: math;
